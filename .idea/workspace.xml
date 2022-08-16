@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Aggiunto le dipendenze al file pom.xml.&#10;Creato tabella alunni tramite file changelog">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creata la classe schoolProjectApp che contiene il main" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660644816514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creata la classe schoolProjectApp che contiene il main">
+      <created>1660645581410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660645581410</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creata la classe schoolProjectApp che contiene il main">
+      <created>1660645601893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660645601893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,7 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aggiunto le dipendenze al file pom.xml.&#10;Creato tabella alunni tramite file changelog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto le dipendenze al file pom.xml.&#10;Creato tabella alunni tramite file changelog" />
+    <MESSAGE value="Creata la classe schoolProjectApp che contiene il main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata la classe schoolProjectApp che contiene il main" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
