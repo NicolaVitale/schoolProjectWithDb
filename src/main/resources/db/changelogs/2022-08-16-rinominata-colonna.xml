@@ -4,9 +4,10 @@
   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-  <include file="/db/changelogs/2022-08-16-creazione-tabella-alunni.xml" />
-  <include file="/db/changelogs/2022-08-16-creazione-tabella-insegnanti.xml" />
-  <include file="/db/changelogs/2022-08-16-creazione-tabella-materie.xml" />
-  <include file="/db/changelogs/2022-08-16-rinominata-colonna.xml" />
+  <changeSet id="2022-08-16-rinominata-colonna" author="Nicola_Vitale">
+    <comment>RINOMINATA COLONNA id_insegnante NELLA TABELLA insegnanti</comment>
 
+    <renameColumn tableName="insegnanti" oldColumnName="id_insengnate" newColumnName="id_materia" columnDataType="BIGINT" />
+
+  </changeSet>
 </databaseChangeLog>
