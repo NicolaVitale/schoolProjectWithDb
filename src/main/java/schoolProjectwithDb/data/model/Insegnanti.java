@@ -31,10 +31,5 @@ public class Insegnanti {
   private String nome;
   @Column
   private String cognome;
-  @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name = "id_materie")
-  @JsonBackReference(value = "id_materie")
-  private Materie materia;
-
 
 }

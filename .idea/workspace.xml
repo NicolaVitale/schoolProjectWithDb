@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Rinominata colonna nella tabella insegnanti tramite chanlog.&#10;Creata classe Materie">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelogs/2022-08-16-correzione-chiave-esterna-insegnanti-materie.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelogs/2022-08-16-eliminata-colonna-tabella-insegnanti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.xml" afterDir="false" />
+    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Corretto chiave esterna tra la tabella insegnanti e materie.&#10;Creata nuova chiave esterna nella tabella materie.&#10;Eliminata colonna id_materia dalla classe insegnanti.&#10;Tutto creando file xml e changelog.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Insegnanti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Insegnanti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Materie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Materie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660665334072</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Corretto chiave esterna tra la tabella insegnanti e materie.&#10;Creata nuova chiave esterna nella tabella materie.&#10;Eliminata colonna id_materia dalla classe insegnanti.&#10;Tutto creando file xml e changelog.">
+      <created>1660666343794</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660666343794</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +244,8 @@
     <MESSAGE value="Eliminata cartella &quot;demo&quot;" />
     <MESSAGE value="Creata tabella materie tramite file xml changelog.&#10;Aggiunta nello stesso file xml, la chiave esterna nella tabella insegnanti." />
     <MESSAGE value="Rinominata colonna nella tabella insegnanti tramite chanlog.&#10;Creata classe Materie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rinominata colonna nella tabella insegnanti tramite chanlog.&#10;Creata classe Materie" />
+    <MESSAGE value="Corretto chiave esterna tra la tabella insegnanti e materie.&#10;Creata nuova chiave esterna nella tabella materie.&#10;Eliminata colonna id_materia dalla classe insegnanti.&#10;Tutto creando file xml e changelog." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corretto chiave esterna tra la tabella insegnanti e materie.&#10;Creata nuova chiave esterna nella tabella materie.&#10;Eliminata colonna id_materia dalla classe insegnanti.&#10;Tutto creando file xml e changelog." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
