@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creata classe Alunni in package model">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelogs/2022-08-16-creazione-tabella-insegnanti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.xml" afterDir="false" />
+    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creato file xml per la creazione della tabella insegnanti e aggiungo al file changelog.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/demo/data/model/Insegnanti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/demo/data/model/Alunni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/demo/data/model/Alunni.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660661822331</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creato file xml per la creazione della tabella insegnanti e aggiungo al file changelog.xml">
+      <created>1660662515889</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660662515889</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +190,8 @@
     <MESSAGE value="creato file hibernate.cfg.xml" />
     <MESSAGE value="Creata tabella alunni su MySql" />
     <MESSAGE value="Creata classe Alunni in package model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata classe Alunni in package model" />
+    <MESSAGE value="Creato file xml per la creazione della tabella insegnanti e aggiungo al file changelog.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creato file xml per la creazione della tabella insegnanti e aggiungo al file changelog.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

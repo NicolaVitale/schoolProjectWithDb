@@ -1,6 +1,5 @@
 package schoolProjectwithDb.demo.data.model;
 
-import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,13 +11,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Table(name = "alunni")
-@Entity
+@Table(name = "insegnanti")
 @Data
 @Builder
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Alunni {
+public class Insegnanti {
 
   @Id
   @Column
@@ -28,7 +27,5 @@ public class Alunni {
   private String nome;
   @Column
   private String cognome;
-  @Column
-  private Date data_nascita;
 
 }
