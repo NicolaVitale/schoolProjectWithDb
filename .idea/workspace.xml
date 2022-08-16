@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creata classe Insegnanti nel package model">
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/demo/SchoolProjectApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/demo/data/model/Alunni.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/demo/data/model/Insegnanti.java" beforeDir="false" />
+    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Eliminata cartella &quot;demo&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelogs/2022-08-16-creazione-tabella-materie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660662819431</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Eliminata cartella &quot;demo&quot;">
+      <created>1660663043281</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660663043281</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +207,8 @@
     <MESSAGE value="Creata classe Alunni in package model" />
     <MESSAGE value="Creato file xml per la creazione della tabella insegnanti e aggiungo al file changelog.xml" />
     <MESSAGE value="Creata classe Insegnanti nel package model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata classe Insegnanti nel package model" />
+    <MESSAGE value="Eliminata cartella &quot;demo&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminata cartella &quot;demo&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
