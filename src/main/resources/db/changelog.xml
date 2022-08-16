@@ -8,5 +8,7 @@
   <include file="/db/changelogs/2022-08-16-creazione-tabella-insegnanti.xml" />
   <include file="/db/changelogs/2022-08-16-creazione-tabella-materie.xml" />
   <include file="/db/changelogs/2022-08-16-rinominata-colonna.xml" />
+  <include file="/db/changelogs/2022-08-16-correzione-chiave-esterna-insegnanti-materie.xml" />
+  <include file="/db/changelogs/2022-08-16-eliminata-colonna-tabella-insegnanti.xml" />
 
 </databaseChangeLog>
