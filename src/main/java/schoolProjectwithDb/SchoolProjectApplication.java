@@ -9,9 +9,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import schoolProjectwithDb.data.model.Alunni;
 import schoolProjectwithDb.data.model.Insegnanti;
+import schoolProjectwithDb.data.model.Materie;
 import schoolProjectwithDb.repository.AlunniRepository;
 import schoolProjectwithDb.service.AlunniService;
 import schoolProjectwithDb.service.InsegnantiService;
+import schoolProjectwithDb.service.MaterieService;
 
 @SpringBootApplication
 public class SchoolProjectApplication {
@@ -25,14 +27,19 @@ public class SchoolProjectApplication {
     AlunniService alunniService = context.getBean(AlunniService.class);
     alunniService.insert(alunnoDaInserire);*/
 
-    //Insegnanti insegnatiDaInserire1 = Insegnanti.builder().id(1L).nome("Paolo").cognome("Verdi").build();
+    /*Insegnanti insegnatiDaInserire1 = Insegnanti.builder().id(1L).nome("Paolo").cognome("Verdi").build();
     Insegnanti insegnatiDaInserire2 = Insegnanti.builder().id(2L).nome("Simone").cognome("Gialli").build();
     Insegnanti insegnatiDaInserire3 = Insegnanti.builder().id(3L).nome("Pippo").cognome("Rosa").build();
     InsegnantiService insegnantiService = context.getBean(InsegnantiService.class);
-    //insegnantiService.insert(insegnatiDaInserire1);
+    insegnantiService.insert(insegnatiDaInserire1);
     insegnantiService.insert(insegnatiDaInserire2);
-    insegnantiService.insert(insegnatiDaInserire3);
+    insegnantiService.insert(insegnatiDaInserire3);*/
 
+    Materie materiaDaInserire = Materie.builder().id(1L).name("Matematica").build();
+    Materie materiaDaInserire2 = Materie.builder().id(2L).name("Inglese").build();
+    MaterieService materieService = context.getBean(MaterieService.class);
+    materieService.insert(materiaDaInserire);
+    materieService.insert(materiaDaInserire2);
 
   }
 

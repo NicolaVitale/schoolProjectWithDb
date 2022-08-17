@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creata le classi AlunniService, GenericResponse e l'interfaccia AlunniRepository. &#10;Nel main(SchoolProjectApplication) testato l'inserimento di un alunno.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/repository/InsegnantiRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/InsegnantiService.java" afterDir="false" />
+    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creata la classe InsegnantiService e l'interfaccia InsegnantiRepository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/repository/MaterieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/MaterieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/SchoolProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/SchoolProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/InsegnantiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/InsegnantiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660747144592</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Creata la classe InsegnantiService e l'interfaccia InsegnantiRepository">
+      <created>1660749669411</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660749669411</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,7 +280,8 @@
     <MESSAGE value="Corretto classi Insegnanti e Materie con la nuova chiave esterna" />
     <MESSAGE value="Creato classi AlluniDTO, InsegnantiDTO e MaterieDTO" />
     <MESSAGE value="Creata le classi AlunniService, GenericResponse e l'interfaccia AlunniRepository. &#10;Nel main(SchoolProjectApplication) testato l'inserimento di un alunno." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata le classi AlunniService, GenericResponse e l'interfaccia AlunniRepository. &#10;Nel main(SchoolProjectApplication) testato l'inserimento di un alunno." />
+    <MESSAGE value="Creata la classe InsegnantiService e l'interfaccia InsegnantiRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata la classe InsegnantiService e l'interfaccia InsegnantiRepository" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

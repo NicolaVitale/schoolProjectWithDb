@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Optional;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import schoolProjectwithDb.data.model.Alunni;
 import schoolProjectwithDb.data.model.Insegnanti;
 import schoolProjectwithDb.data.response.GenericResponse;
 import schoolProjectwithDb.repository.InsegnantiRepository;
@@ -34,9 +33,9 @@ public class InsegnantiService {
   public GenericResponse insert(Insegnanti insegnante) {
 
     GenericResponse response = new GenericResponse();
-    Optional<Insegnanti> alunni = insegnantiRepository.findById(insegnante.getId());
+    Optional<Insegnanti> insegnati = insegnantiRepository.findById(insegnante.getId());
 
-    if (alunni.isPresent()) {
+    if (insegnati.isPresent()) {
       response.setHttpStatus(HttpStatus.NOT_FOUND);
       response.setMessage("Insegnante gia' presente");
     } else {
