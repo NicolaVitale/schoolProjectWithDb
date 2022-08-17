@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Corretto classi Insegnanti e Materie con la nuova chiave esterna">
-      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/dto/AlunniDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/dto/InsegnantiDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/dto/MatrerieDTO.java" afterDir="false" />
+    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creato classi AlluniDTO, InsegnantiDTO e MaterieDTO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/response/GenericResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/repository/AlunniRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/AlunniService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Alunni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Alunni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Insegnanti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Insegnanti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Materie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/model/Materie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/SchoolProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/SchoolProjectApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660666512197</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Creato classi AlluniDTO, InsegnantiDTO e MaterieDTO">
+      <created>1660743702020</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660743702020</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +263,8 @@
     <MESSAGE value="Rinominata colonna nella tabella insegnanti tramite chanlog.&#10;Creata classe Materie" />
     <MESSAGE value="Corretto chiave esterna tra la tabella insegnanti e materie.&#10;Creata nuova chiave esterna nella tabella materie.&#10;Eliminata colonna id_materia dalla classe insegnanti.&#10;Tutto creando file xml e changelog." />
     <MESSAGE value="Corretto classi Insegnanti e Materie con la nuova chiave esterna" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corretto classi Insegnanti e Materie con la nuova chiave esterna" />
+    <MESSAGE value="Creato classi AlluniDTO, InsegnantiDTO e MaterieDTO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creato classi AlluniDTO, InsegnantiDTO e MaterieDTO" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
