@@ -24,10 +24,13 @@ public class Alunni {
   @Column
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
+
   @Column
   private String nome;
+
   @Column
   private String cognome;
+
   @Column
   private Date data_nascita;
 

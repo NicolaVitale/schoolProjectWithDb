@@ -27,8 +27,10 @@ public class Materie {
   @Column
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
+
   @Column
   private String name;
+
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "id_insegnante")
   @JsonBackReference(value = "id_insegnante")

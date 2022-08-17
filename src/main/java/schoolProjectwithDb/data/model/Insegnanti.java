@@ -27,8 +27,10 @@ public class Insegnanti {
   @Column
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
+
   @Column
   private String nome;
+
   @Column
   private String cognome;
 
