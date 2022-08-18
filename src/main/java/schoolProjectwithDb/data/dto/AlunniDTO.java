@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import schoolProjectwithDb.data.model.Alunni;
 
 @Data
 @Builder
@@ -21,4 +22,7 @@ public class AlunniDTO {
     return nome + " " + cognome;
   }
 
+  public Alunni toModel() {
+    return Alunni.builder().id(id).nome(nome).cognome(cognome).data_nascita(data_nascita).build();
+  }
 }

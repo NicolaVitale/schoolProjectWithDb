@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Creata la classe MaterieService e interfaccia MaterieRepository">
+    <list default="true" id="52312543-3bc3-49cf-b9a3-dd5ad449779c" name="Changes" comment="Alcune correzioni. &#10;Non funziona il metodo insert della classe MaterieService">
+      <change afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/controller/AlunniController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/SchoolProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/SchoolProjectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/AlunniService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/AlunniService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/InsegnantiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/InsegnantiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/MaterieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/service/MaterieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/dto/AlunniDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schoolProjectwithDb/data/dto/AlunniDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660752126092</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Alcune correzioni. &#10;Non funziona il metodo insert della classe MaterieService">
+      <created>1660816098663</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660816098663</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +294,8 @@
     <MESSAGE value="Creata le classi AlunniService, GenericResponse e l'interfaccia AlunniRepository. &#10;Nel main(SchoolProjectApplication) testato l'inserimento di un alunno." />
     <MESSAGE value="Creata la classe InsegnantiService e l'interfaccia InsegnantiRepository" />
     <MESSAGE value="Creata la classe MaterieService e interfaccia MaterieRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata la classe MaterieService e interfaccia MaterieRepository" />
+    <MESSAGE value="Alcune correzioni. &#10;Non funziona il metodo insert della classe MaterieService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alcune correzioni. &#10;Non funziona il metodo insert della classe MaterieService" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
