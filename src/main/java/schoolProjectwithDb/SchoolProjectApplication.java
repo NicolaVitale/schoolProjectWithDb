@@ -18,7 +18,7 @@ import schoolProjectwithDb.service.MaterieService;
 @SpringBootApplication
 public class SchoolProjectApplication {
 
-  public static void main(String[] args) throws ParseException {
+  public static void main(String[] args) {
     ConfigurableApplicationContext context = SpringApplication.run(SchoolProjectApplication.class,
         args);
 
@@ -33,13 +33,13 @@ public class SchoolProjectApplication {
     InsegnantiService insegnantiService = context.getBean(InsegnantiService.class);
     insegnantiService.insert(insegnatiDaInserire1);
     insegnantiService.insert(insegnatiDaInserire2);
-    insegnantiService.insert(insegnatiDaInserire3);*/
+    insegnantiService.insert(insegnatiDaInserire3);
 
     Materie materiaDaInserire = Materie.builder().id(1L).name("Matematica").build();
     Materie materiaDaInserire2 = Materie.builder().id(2L).name("Inglese").build();
     MaterieService materieService = context.getBean(MaterieService.class);
     materieService.insert(materiaDaInserire);
-    materieService.insert(materiaDaInserire2);
+    materieService.insert(materiaDaInserire2);*/
 
   }
 

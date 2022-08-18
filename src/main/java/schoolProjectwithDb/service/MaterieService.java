@@ -35,14 +35,15 @@ public class MaterieService {
     GenericResponse response = new GenericResponse();
     Optional<Materie> materie = materieRepository.findById(materia.getId());
 
-    if(materie.isPresent()) {
-      response.setHttpStatus(HttpStatus.NOT_FOUND);
-      response.setMessage("Materia già esistente");
+    if (materie.isPresent()) {
+      response.setHttpStatus(HttpStatus.FOUND);
+      response.setMessage("Materia gia' presente");
     } else {
       materieRepository.save(materia);
       response.setHttpStatus(HttpStatus.CREATED);
-      response.setMessage("Materia inserita correttamente");
+      response.setMessage("Materia salvata correttamente");
     }
+
     return response;
   }
 

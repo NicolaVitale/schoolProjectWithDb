@@ -36,10 +36,10 @@ public class AlunniService {
     Optional<Alunni> alunni = alunniRepository.findById(alunno.getId());
 
     if (alunni.isPresent()) {
-      response.setHttpStatus(HttpStatus.NOT_FOUND);
+      response.setHttpStatus(HttpStatus.FOUND);
       response.setMessage("Alunno gia' presente");
     } else {
-      Alunni alunnoSalvato = alunniRepository.save(alunno);
+      alunniRepository.save(alunno);
       response.setHttpStatus(HttpStatus.CREATED);
       response.setMessage("Alunno salvato correttamente");
     }

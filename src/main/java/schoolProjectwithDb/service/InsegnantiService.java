@@ -36,7 +36,7 @@ public class InsegnantiService {
     Optional<Insegnanti> insegnati = insegnantiRepository.findById(insegnante.getId());
 
     if (insegnati.isPresent()) {
-      response.setHttpStatus(HttpStatus.NOT_FOUND);
+      response.setHttpStatus(HttpStatus.FOUND);
       response.setMessage("Insegnante gia' presente");
     } else {
       insegnantiRepository.save(insegnante);
